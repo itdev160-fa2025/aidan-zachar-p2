@@ -1,0 +1,50 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgb(16, 16, 17);
+    color: white;
+}
+
+header {
+    margin: 1rem 20%;
+}
+input {
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 50%;
+    border: none;
+}
+button {
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+.post {
+    padding: 0.5rem 1.25rem;
+    border-radius: 1.5rem;
+    margin: 0 0 1rem 0;
+    background-color: #202024;
+}
+.engagement {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0.5rem 0;
+    color: #7e7e8f;
+}
+.engagement p {margin: 0 2rem;}
+.engagement a:hover {
+    color: white;
+    cursor: pointer;
+}
+.liked {
+    color: rgb(255, 55, 55);
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+#content-container {
+    margin: 0 20%;
+}
